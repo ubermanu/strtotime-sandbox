@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "vite build --base=/strtotime-sandbox/"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bulma": "^0.9.3",
+    "bulma-prefers-dark": "^0.1.0-beta.1",
+    "locutus": "^2.0.15",
+    "svelte": "^3.44.2"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "gh-pages": "^3.2.3",
+    "prettier": "^2.4.1",
+    "vite": "^2.6.14"
+  }
+}
